@@ -1,0 +1,6 @@
+[over] LD clean mean +2.47, corrupted -2.75
+[over] k-patch recovery drops below 0.5 at layer: 17
+[over] final-position patch recovery exceeds 0.5 at layer: 18
+[below_a] LD clean mean +2.87, corrupted -2.46
+[below_a] k-patch recovery drops below 0.5 at layer: 17
+[below_a] final-position patch recovery exceeds 0.5 at layer: 18

@@ -1,0 +1,6 @@
+A_verdict    @ k_last : earliest layer with AUC>=0.9 sustained: None   peak AUC 0.963
+A_verdict    @ final  : earliest layer with AUC>=0.9 sustained: 16   peak AUC 1.000
+B_over       @ k_last : earliest layer with AUC>=0.9 sustained: 13   peak AUC 0.955
+B_over       @ final  : earliest layer with AUC>=0.9 sustained: None   peak AUC 0.929
+C_below_a    @ k_last : earliest layer with AUC>=0.9 sustained: 28   peak AUC 0.956
+C_below_a    @ final  : earliest layer with AUC>=0.9 sustained: 17   peak AUC 0.984

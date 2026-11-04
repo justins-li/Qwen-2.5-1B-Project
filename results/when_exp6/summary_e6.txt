@@ -1,0 +1,21 @@
+items: [(14, 3), (20, 14), (20, 5), (20, 2), (14, 4), (17, 14), (14, 2), (17, 13)]
+baseline LD   true +2.19   false -2.02
+full-residual DLA (yes-no):  true +2.76   false -1.47
+L17H0  DLA yes-no:  true +0.09  over +0.06  below_a +0.06   (true-false gap +0.02)
+L17H0  cos(write_true - write_false, dir):  A_verdict=+0.42  B_over=-0.27  C_below_a=-0.50  U_yesno=+0.02
+L17H0  cos(write, A_verdict) per class:  true +0.11  false -0.03
+L17H0  PC1 var explained 0.39 (PC2 0.29); corr(PC1 proj, logodds) r=+0.34; cos(PC1, A_verdict)=+0.06
+L18H11  DLA yes-no:  true +0.10  over +0.10  below_a +0.10   (true-false gap +0.00)
+L18H11  cos(write_true - write_false, dir):  A_verdict=+0.34  B_over=-0.30  C_below_a=-0.28  U_yesno=+0.01
+L18H11  cos(write, A_verdict) per class:  true +0.03  false -0.01
+L18H11  PC1 var explained 0.62 (PC2 0.14); corr(PC1 proj, logodds) r=+0.99; cos(PC1, A_verdict)=+0.34
+L18H10  DLA yes-no:  true -0.16  over -0.19  below_a -0.18   (true-false gap +0.03)
+L18H10  cos(write_true - write_false, dir):  A_verdict=-0.41  B_over=+0.35  C_below_a=+0.32  U_yesno=+0.03
+L18H10  cos(write, A_verdict) per class:  true +0.00  false +0.07
+L18H10  PC1 var explained 0.79 (PC2 0.09); corr(PC1 proj, logodds) r=+0.99; cos(PC1, A_verdict)=-0.41
+L17H3  DLA yes-no:  true -0.27  over -0.26  below_a -0.27   (true-false gap -0.00)
+L17H3  cos(write_true - write_false, dir):  A_verdict=-0.45  B_over=+0.29  C_below_a=+0.53  U_yesno=-0.04
+L17H3  cos(write, A_verdict) per class:  true -0.10  false -0.07
+L17H3  PC1 var explained 0.40 (PC2 0.28); corr(PC1 proj, logodds) r=+0.48; cos(PC1, A_verdict)=-0.20
+L17H0 write (true-false) promotes: Ð¼Ð¾Ð½ ordova ä»£è¨Ģ ymoon íķĺìĹ¬ìķ¼ stant ÑĩÐµÐ½ rex _mono åĸľæĤ¦ wagon çķĢ
+L17H0 write (true-false) suppresses: Null .isNull âĬ¥ ZERO .NULL Ġnull .zero ĠNull åĬ£åĬ¿ ä¸įèµ· è¯»æĩĤ -null

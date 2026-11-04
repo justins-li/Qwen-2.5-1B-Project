@@ -1,0 +1,42 @@
+items: [(14, 3), (20, 14), (20, 5), (20, 2), (14, 4), (17, 14), (14, 2), (17, 13)]
+baseline LD   true +2.19   over -2.46   below_a -1.57
+--- zero ablation (delta LD vs baseline; true col also: verdict flips) ---
+L17H0          true -0.95 (1/8 flip)   over +0.45   below_a +0.53
+L17H1          true -0.27 (0/8 flip)   over -0.30   below_a -0.30
+L17H2          true -0.54 (0/8 flip)   over -0.09   below_a -0.06
+L17H3          true +0.82 (0/8 flip)   over +0.52   below_a +0.44
+L17H4          true +0.07 (0/8 flip)   over +0.39   below_a +0.36
+L17H5          true +0.05 (0/8 flip)   over +0.45   below_a +0.37
+L17H6          true +0.05 (0/8 flip)   over +0.31   below_a +0.30
+L17H7          true -0.11 (0/8 flip)   over -0.08   below_a -0.11
+L17H8          true +0.07 (0/8 flip)   over +0.11   below_a +0.10
+L17H9          true -0.01 (0/8 flip)   over +0.25   below_a +0.25
+L17H10         true +0.01 (0/8 flip)   over -0.18   below_a -0.14
+L17H11         true +0.05 (0/8 flip)   over +0.04   below_a +0.03
+L18H11         true +0.54 (0/8 flip)   over +1.18   below_a +1.35
+L16H7          true -0.44 (1/8 flip)   over -0.32   below_a -0.61
+L18H7          true +0.35 (0/8 flip)   over +0.36   below_a +0.34
+L19H11         true -0.34 (0/8 flip)   over +0.45   below_a +0.40
+L18H10         true -1.08 (4/8 flip)   over -1.50   below_a -1.85
+L17H0+L18H11   true -0.21 (0/8 flip)   over +1.99   below_a +1.98
+L17H0+L18H10   true -2.63 (6/8 flip)   over -1.36   below_a -1.39
+--- mean ablation (delta LD vs baseline; true col also: verdict flips) ---
+L17H0          true -1.12 (2/8 flip)   over +0.46   below_a +0.48
+L17H1          true +0.02 (0/8 flip)   over -0.01   below_a +0.01
+L17H2          true -0.22 (0/8 flip)   over +0.07   below_a +0.12
+L17H3          true +0.15 (0/8 flip)   over -0.07   below_a -0.07
+L17H4          true -0.04 (0/8 flip)   over +0.02   below_a -0.00
+L17H5          true -0.17 (0/8 flip)   over +0.02   below_a +0.01
+L17H6          true +0.00 (0/8 flip)   over -0.00   below_a +0.00
+L17H7          true +0.00 (0/8 flip)   over +0.00   below_a -0.00
+L17H8          true +0.01 (0/8 flip)   over +0.00   below_a +0.00
+L17H9          true -0.00 (0/8 flip)   over -0.00   below_a -0.00
+L17H10         true -0.00 (0/8 flip)   over +0.00   below_a +0.00
+L17H11         true +0.00 (0/8 flip)   over +0.00   below_a +0.00
+L18H11         true -0.57 (0/8 flip)   over +0.24   below_a +0.22
+L16H7          true -0.22 (0/8 flip)   over +0.22   below_a +0.00
+L18H7          true -0.15 (0/8 flip)   over +0.11   below_a +0.07
+L19H11         true -0.16 (0/8 flip)   over +0.11   below_a +0.08
+L18H10         true +0.75 (0/8 flip)   over -0.38   below_a -0.25
+L17H0+L18H11   true -1.61 (2/8 flip)   over +0.74   below_a +0.64
+L17H0+L18H10   true -0.73 (0/8 flip)   over +0.19   below_a +0.42

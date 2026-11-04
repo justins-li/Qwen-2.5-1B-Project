@@ -1,0 +1,41 @@
+rows: 820  items: 40  offsets: -10..10
+P(yes) on true equations:  mean 0.666   greedy-yes rate 0.650
+P(yes) on false equations: mean 0.370   greedy-yes rate 0.367
+  undershoot (k < a+b):    mean 0.588   greedy-yes rate 0.600
+  overshoot  (k > a+b):    mean 0.162   greedy-yes rate 0.145
+balanced accuracy (mean of true-yes and false-no rates): 0.642   [true-yes 0.650, false-no 0.633]
+raw accuracy (greedy verdict == truth): 0.634   (always-'no' baseline: 0.951)
+then_corrects: not measured (run without --generate)
+per-item AUC (true eq. ranked above a wrong one; 0.5 = chance): mean 0.697  median 0.750
+S (both sides):  median 0.378  IQR [-0.114, 0.673]  S < 0.1: 12/40   S > 0.5: 17/40
+S_under:         median 0.145  IQR [-0.402, 0.458]  S < 0.1: 18/40   S > 0.5: 9/40
+S_over:          median 0.626  IQR [0.188, 0.831]  S < 0.1: 9/40   S > 0.5: 24/40
+
+P(yes) by offset (mean over items):
+  -10: 0.473
+   -9: 0.526
+   -8: 0.554
+   -7: 0.557
+   -6: 0.615
+   -5: 0.609
+   -4: 0.607
+   -3: 0.602
+   -2: 0.619
+   -1: 0.699
+   +0: 0.666
+   +1: 0.436
+   +2: 0.348
+   +3: 0.210
+   +4: 0.150
+   +5: 0.117
+   +6: 0.117
+   +7: 0.061
+   +8: 0.088
+   +9: 0.055
+  +10: 0.039
+
+P(yes) on false equations by true-sum bucket:
+  true sum 2-10: 0.193  (n=100)
+  true sum 11-20: 0.344  (n=280)
+  true sum 21-30: 0.442  (n=260)
+  true sum 31-40: 0.414  (n=140)

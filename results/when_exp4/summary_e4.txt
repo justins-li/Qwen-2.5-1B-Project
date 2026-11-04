@@ -1,0 +1,15 @@
+[over] items: [(14, 3), (15, 5), (20, 14), (20, 5), (20, 2), (14, 4), (17, 14), (14, 2)]
+[over] top heads (recovery): L17H0=0.41, L18H11=0.20, L16H7=0.10, L18H7=0.07, L17H2=0.07, L19H11=0.07
+[over] attn-out recovery by layer 14-21: 14:0.00 15:0.05 16:0.14 17:0.49 18:-0.06 19:-0.04 20:0.07 21:0.03
+[over] mlp-out recovery by layer 14-21:  14:0.00 15:-0.00 16:0.02 17:0.29 18:0.46 19:0.43 20:0.05 21:0.08
+[over] max single-head recovery 0.41 at L17H0
+[below_a] items: [(13, 18), (14, 3), (17, 12), (15, 1), (20, 14), (20, 5), (16, 1), (18, 11)]
+[below_a] top heads (recovery): L17H0=0.42, L18H11=0.23, L17H2=0.10, L16H7=0.08, L19H11=0.08, L18H7=0.08
+[below_a] attn-out recovery by layer 14-21: 14:0.00 15:0.06 16:0.10 17:0.53 18:-0.00 19:-0.04 20:0.05 21:0.02
+[below_a] mlp-out recovery by layer 14-21:  14:-0.00 15:0.01 16:0.01 17:0.30 18:0.49 19:0.44 20:0.08 21:0.08
+[below_a] max single-head recovery 0.42 at L17H0
+attention of L17H0 (rec 0.41): k=0.41  a=0.03  b=0.05  eq=0.06  final=0.01  other=0.44
+attention of L18H11 (rec 0.21): k=0.08  a=0.02  b=0.01  eq=0.02  final=0.10  other=0.77
+attention of L16H7 (rec 0.09): k=0.15  a=0.10  b=0.09  eq=0.08  final=0.03  other=0.55
+attention of L17H2 (rec 0.09): k=0.10  a=0.04  b=0.02  eq=0.05  final=0.02  other=0.78
+attention of L18H7 (rec 0.07): k=0.07  a=0.03  b=0.01  eq=0.03  final=0.05  other=0.80

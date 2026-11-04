@@ -1,0 +1,14 @@
+=== Phase A: swapped-order sweep (b printed first), |a-b|>=3 undershoots ===
+edge on k - first printed (b) : P(yes) below 0.11  at/above 0.72  step +0.61
+edge on k - second printed (a): P(yes) below 0.37  at/above 0.76  step +0.39
+edge on k - min operand       : P(yes) below 0.01  at/above 0.41  step +0.39
+edge on k - max operand       : P(yes) below 0.31  at/above 0.90  step +0.59
+[original a-first] edge on k - first printed (a): below 0.16  at/above 0.90  step +0.73
+[original a-first] edge on k - second printed (b): below 0.62  at/above 0.54  step -0.08
+=== Phase B: head patching, swapped prompts ===
+[over] items: [(5, 15), (5, 20), (1, 16), (4, 14), (16, 17), (9, 18), (10, 15), (15, 15)]
+[over] top heads: L17H0=0.41, L18H11=0.19, L16H7=0.11, L18H7=0.07, L19H11=0.07
+[over] L17H0 recovery: 0.41
+[below_first] items: [(18, 13), (12, 17), (14, 15), (15, 16), (12, 19), (14, 17), (13, 17), (16, 17)]
+[below_first] top heads: L17H0=0.38, L18H11=0.17, L17H2=0.08, L19H11=0.07, L16H7=0.06
+[below_first] L17H0 recovery: 0.38

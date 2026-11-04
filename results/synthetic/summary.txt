@@ -1,0 +1,35 @@
+rows: 824  items: 40  offsets: -10..10
+P(yes) on true equations:  mean 0.741   greedy-yes rate 1.000
+P(yes) on false equations: mean 0.425   greedy-yes rate 0.288
+accuracy (greedy verdict == truth): 0.726
+then_corrects (said yes, restated a different result): 156 rows (0.189 of all, 0.199 of false)
+sensitivity S: median 0.286  IQR [0.181, 0.456]  items with S < 0.1 (insensitive): 4/40   S > 0.5 (sensitive): 8/40
+
+P(yes) by offset (mean over items):
+  -10: 0.405
+   -9: 0.406
+   -8: 0.407
+   -7: 0.410
+   -6: 0.408
+   -5: 0.410
+   -4: 0.421
+   -3: 0.436
+   -2: 0.468
+   -1: 0.521
+   +0: 0.741
+   +1: 0.521
+   +2: 0.468
+   +3: 0.436
+   +4: 0.416
+   +5: 0.404
+   +6: 0.397
+   +7: 0.393
+   +8: 0.390
+   +9: 0.389
+  +10: 0.388
+
+P(yes) on false equations by true-sum bucket:
+  true sum 2-10: 0.226  (n=44)
+  true sum 11-20: 0.453  (n=300)
+  true sum 21-30: 0.426  (n=320)
+  true sum 31-40: 0.425  (n=120)
