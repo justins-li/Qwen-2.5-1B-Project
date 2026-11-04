@@ -34,6 +34,8 @@ def main():
     ap.add_argument("--out", required=True)
     ap.add_argument("--model_label", default="Qwen2.5-1.5B")
     ap.add_argument("--ideal_label", default="ideal verifier (equality rule, synthetic)")
+    ap.add_argument("--legend_loc", default="center right")
+    ap.add_argument("--footnote", default="", help="small gray note at the bottom right of the axes")
     args = ap.parse_args()
     os.makedirs(os.path.dirname(args.out) or ".", exist_ok=True)
 
@@ -59,8 +61,11 @@ def main():
     ax.set_ylim(-0.03, 1.03)
     ax.set_xticks(np.arange(offsets.min(), offsets.max() + 1, 2))
     ax.set_title("Verdict vs stated result: measured model against an ideal checker")
-    ax.legend(frameon=False, loc="center right", fontsize=9)
+    ax.legend(frameon=False, loc=args.legend_loc, fontsize=9)
     ax.text(offsets.min(), 0.06, f"n = {piv.shape[0]} (a,b) items", color=INK2, fontsize=9)
+    if args.footnote:
+        ax.text(0.99, 0.07, args.footnote, transform=ax.transAxes, ha="right",
+                color=INK2, fontsize=7.5)
     fig.tight_layout()
     fig.savefig(args.out, dpi=200)
     plt.close(fig)
